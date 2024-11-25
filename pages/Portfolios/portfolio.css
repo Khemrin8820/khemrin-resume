@@ -173,6 +173,9 @@
   #laptop-respond {
     display: none;
   }
+  #mobile-respond {
+    display: flex;
+  }
   .projects-images {
     width: 90%;
     margin: 0 auto;
