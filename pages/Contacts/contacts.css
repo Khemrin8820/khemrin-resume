@@ -74,3 +74,23 @@
 .contact-more ul li img {
   width: 100%;
 }
+
+/*Respondsive for Mobile*/
+@media (max-width: 480px) {
+  .contact-me {
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .contact-me-left {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .image-map {
+    width: 100%;
+  }
+  .image-map iframe {
+    width: 100%;
+  }
+}
