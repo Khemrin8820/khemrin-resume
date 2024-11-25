@@ -90,10 +90,10 @@ article {
   }
   .title-my-blog ul {
     width: 100%;
-    gap: 8px;
+    justify-content: space-between;
   }
   .title-my-blog ul li {
-    width: 180px;
+    width: 47%;
     height: 300px;
   }
 }
