@@ -78,3 +78,22 @@ article {
   bottom: 10px;
   font-weight: 800;
 }
+
+/*Respondsive for Mobile*/
+@media (max-width: 480px) {
+  article {
+    margin: 0;
+  }
+  .title-my-blog {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .title-my-blog ul {
+    width: 100%;
+    gap: 10px;
+  }
+  .title-my-blog ul li {
+    width: 180px;
+    height: 300px;
+  }
+}
