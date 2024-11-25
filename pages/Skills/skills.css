@@ -1,0 +1,69 @@
+.title-skills {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 50px;
+}
+.title-skills h2 {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+.title-skills h2 span {
+  color: var(--main-color);
+  text-decoration: underline;
+}
+.title-skills p {
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.537);
+  margin-bottom: 50px;
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 90%;
+}
+.skills ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.skills ul li {
+  width: 49%;
+  height: 65px;
+  margin-bottom: 10px;
+  position: relative;
+}
+.skills ul li h3 {
+  position: absolute;
+  left: 15px;
+}
+.skills ul li img {
+  width: 100%;
+  height: 100%;
+}
+
+/*Respondsive for Mobile*/
+@media (max-width: 480px) {
+  .title-skills {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .title-skills h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+  .title-skills p {
+    font-size: 20px;
+  }
+  .skills ul li {
+    width: 100%;
+    height: 44px;
+  }
+  .skills ul li h3 {
+    font-size: 15px;
+    left: 5px;
+  }
+}
