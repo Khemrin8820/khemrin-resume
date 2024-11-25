@@ -19,13 +19,16 @@
   align-items: center;
   justify-content: center;
   background-color: rgba(255, 255, 255, 0.648);
-  width: 50px;
+  width: 7%;
   height: 50px;
   border-radius: 50%;
 }
 .contact-icon i {
   color: var(--black-color);
   font-size: 24px;
+}
+.contact-title {
+  width: 93%;
 }
 .contact-title h2 {
   margin-bottom: 5px;
@@ -86,6 +89,12 @@
   .contact-me-left {
     margin-bottom: 30px;
     width: 100%;
+  }
+  .contact-icon {
+    width: 14%;
+  }
+  .contact-title {
+    width: 86%;
   }
   .image-map {
     width: 100%;
