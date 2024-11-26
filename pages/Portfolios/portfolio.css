@@ -58,6 +58,7 @@
 .projects-images ul li img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 .less-icon,
 .greater-icon {
@@ -102,6 +103,7 @@
   display: flex;
   width: 60%;
   background-color: #32363a;
+  gap: 1%;
   border-radius: 8px;
   overflow: hidden;
   position: relative;
@@ -111,9 +113,11 @@
 }
 .project-info-img img {
   height: 400px;
+  width: 100%;
+  object-fit: cover;
 }
 .project-info-desc {
-  width: 60%;
+  width: 59%;
 }
 .project-info-desc h3 {
   font-size: 30px;

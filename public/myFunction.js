@@ -31,5 +31,5 @@ function showCodeSkill() {
               <img src="${e.img}" alt="${e.alt}">
             </li>`;
   });
-  document.querySelector(".coding-skills ul").innerHTML=txt;
+  $(".coding-skills ul").html(txt);
 }

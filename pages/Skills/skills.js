@@ -36,6 +36,5 @@ function showPercentSkill() {
               <img src="${e.img}">
             </li>`;
   });
-  console.log(txt);
-  document.querySelector(".skills ul").innerHTML=txt;
+  $(".skills ul").html(txt);
 }
