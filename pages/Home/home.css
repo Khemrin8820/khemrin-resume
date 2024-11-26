@@ -82,6 +82,9 @@
   color: black;
   font-size: 20px;
 }
+.arrow-display {
+  visibility: hidden;
+}
 .arrow-icon i {
   color: var(--text-color);
 }
@@ -180,6 +183,7 @@
   padding: 5px 8px;
   border-radius: 8px;
 }
+
 .my-skills {
   justify-content: center;
   align-items: center;

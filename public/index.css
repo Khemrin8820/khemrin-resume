@@ -139,3 +139,22 @@ footer {
     display: none;
   }
 }
+
+/*Animation*/
+.upDownLoop {
+  animation-name: upDownLoop;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes upDownLoop {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(10px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
