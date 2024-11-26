@@ -241,12 +241,13 @@
   .project-info-desc h4,
   .project-info-desc h5 {
     margin-bottom: 5px;
+    font-size: 15px;
   }
   .project-info-desc h6 {
     margin-top: 14px;
-    font-size: 22px;
+    font-size: 18px;
   }
   .project-info-desc p {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
