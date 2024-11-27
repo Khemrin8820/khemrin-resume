@@ -48,7 +48,9 @@ function showBlogs() {
         txt = `
               <div class="blog-info-img">
                     <i class="fa-solid fa-less-than less-icon" id="btnPrev"></i>
-                    <img src="${e.mainImg[0]}">
+                      <div class="blog-images">
+                        <img src="${e.mainImg[0]}">
+                      </div>
                     <i class="fa-solid fa-greater-than greater-icon" id="btnNext"></i>
               </div>
               <div class="blog-info-desc">
@@ -80,7 +82,7 @@ function showBlogs() {
       if (current > 0) {
         current--;
         txtImg = `<img src="${arrImg[current]}">`;
-        $(".blog-info-img #btnPrev").after(txtImg);
+        $(".blog-images").html(txtImg);
         $("#btnNext").show();
         if (current == 0) {
           $("#btnPrev").hide();
@@ -91,7 +93,7 @@ function showBlogs() {
       if (current < arrImg.length - 1) { //0<1 1<2
         current++;
         txtImg = `<img src="${arrImg[current]}">`;
-        $(".blog-info-img #btnPrev").after(txtImg).fadeIn();
+        $(".blog-images").html(txtImg);
         $("#btnPrev").show();
         if (current == arrImg.length - 1) {
           $("#btnNext").hide();
