@@ -11,7 +11,7 @@ var frontendProjectImages = [{
   "title": "Portfolio",
   "testLink": "https://www.google.com",
   "codeProject": "https://www.github.com",
-  "mainImg": "../../public/khemrin-images1.png",
+  "mainImg": "../../public/khemrin-images.jpg",
   "img1": "../../public/khemrin-images.jpg",
   "img2":"../../public/khemrin-images.jpg",
   "desc":"This Project I used coding like Javascript, jQuery, CSS, HTML."
@@ -19,7 +19,7 @@ var frontendProjectImages = [{
   "title": "Portfolio",
   "testLink": "https://www.google.com",
   "codeProject": "https://www.github.com",
-  "mainImg": "../../public/khemrin-images2.png",
+  "mainImg": "../../public/khemrin-images.jpg",
   "img1": "../../public/khemrin-images.jpg",
   "img2":"../../public/khemrin-images.jpg",
   "desc":"This Project I used coding like Javascript, jQuery, CSS, HTML."
@@ -27,7 +27,71 @@ var frontendProjectImages = [{
   "title": "Portfolio",
   "testLink": "https://www.google.com",
   "codeProject": "https://www.github.com",
-  "mainImg": "../../public/khemrin-images3.jpg",
+  "mainImg": "../../public/khemrin-images.jpg",
+  "img1": "../../public/khemrin-images.jpg",
+  "img2":"../../public/khemrin-images.jpg",
+  "desc":"This Project I used coding like Javascript, jQuery, CSS, HTML."
+  }, {
+  "title": "Portfolio",
+  "testLink": "https://www.google.com",
+  "codeProject": "https://www.github.com",
+  "mainImg": "../../public/khemrin-images.jpg",
+  "img1": "../../public/khemrin-images.jpg",
+  "img2":"../../public/khemrin-images.jpg",
+  "desc":"This Project I used coding like Javascript, jQuery, CSS, HTML."
+  }, {
+  "title": "Portfolio",
+  "testLink": "https://www.google.com",
+  "codeProject": "https://www.github.com",
+  "mainImg": "../../public/khemrin-images.jpg",
+  "img1": "../../public/khemrin-images.jpg",
+  "img2":"../../public/khemrin-images.jpg",
+  "desc":"This Project I used coding like Javascript, jQuery, CSS, HTML."
+  }, {
+  "title": "Portfolio",
+  "testLink": "https://www.google.com",
+  "codeProject": "https://www.github.com",
+  "mainImg": "../../public/khemrin-images.jpg",
+  "img1": "../../public/khemrin-images.jpg",
+  "img2":"../../public/khemrin-images.jpg",
+  "desc":"This Project I used coding like Javascript, jQuery, CSS, HTML."
+  }, {
+  "title": "Portfolio",
+  "testLink": "https://www.google.com",
+  "codeProject": "https://www.github.com",
+  "mainImg": "../../public/khemrin-images.jpg",
+  "img1": "../../public/khemrin-images.jpg",
+  "img2":"../../public/khemrin-images.jpg",
+  "desc":"This Project I used coding like Javascript, jQuery, CSS, HTML."
+  }, {
+  "title": "Portfolio",
+  "testLink": "https://www.google.com",
+  "codeProject": "https://www.github.com",
+  "mainImg": "../../public/khemrin-images.jpg",
+  "img1": "../../public/khemrin-images.jpg",
+  "img2":"../../public/khemrin-images.jpg",
+  "desc":"This Project I used coding like Javascript, jQuery, CSS, HTML."
+  }, {
+  "title": "Portfolio",
+  "testLink": "https://www.google.com",
+  "codeProject": "https://www.github.com",
+  "mainImg": "../../public/khemrin-images.jpg",
+  "img1": "../../public/khemrin-images.jpg",
+  "img2":"../../public/khemrin-images.jpg",
+  "desc":"This Project I used coding like Javascript, jQuery, CSS, HTML."
+  }, {
+  "title": "Portfolio",
+  "testLink": "https://www.google.com",
+  "codeProject": "https://www.github.com",
+  "mainImg": "../../public/khemrin-images.jpg",
+  "img1": "../../public/khemrin-images.jpg",
+  "img2":"../../public/khemrin-images.jpg",
+  "desc":"This Project I used coding like Javascript, jQuery, CSS, HTML."
+  }, {
+  "title": "Portfolio",
+  "testLink": "https://www.google.com",
+  "codeProject": "https://www.github.com",
+  "mainImg": "../../public/khemrin-images.jpg",
   "img1": "../../public/khemrin-images.jpg",
   "img2":"../../public/khemrin-images.jpg",
   "desc":"This Project I used coding like Javascript, jQuery, CSS, HTML."
