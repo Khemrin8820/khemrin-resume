@@ -153,6 +153,10 @@
   background-color: var(--background-color);
   transition: 200ms ease;
 }
+#download-cv {
+  float: left;
+  visibility: hidden;
+}
 .about-me button:hover,
 .my-skills-desc button:hover {
   transform: scale(1.1);
@@ -236,6 +240,10 @@
   .my-skills-desc p {
     font-size: 20px;
     line-height: 24px;
+  }
+  #download-cv {
+    visibility: visible;
+    margin-right: 25px;
   }
   .my-skills {
     flex-direction: column;
