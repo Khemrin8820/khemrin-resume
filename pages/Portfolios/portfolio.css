@@ -197,7 +197,7 @@
   }
   .projects-images ul {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     height: 330px;
     padding: 10px 15px;
     gap: 3%;
