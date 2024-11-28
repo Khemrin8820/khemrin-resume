@@ -237,7 +237,8 @@
     margin: 0 0 0 15px;
   }
   .project-info-desc h3 {
-    margin: 10px 0;
+    margin: 5px 0;
+    font-size: 20px;
   }
 
   .project-info-desc h4,
