@@ -1,11 +1,11 @@
 $(".less-icon").hide();
 //Frontend Project
 var frontendProjectImages = [{
-  "title": "Portfolio",
-  "testLink": "https://www.google.com",
-  "codeProject": "https://www.github.com",
-  "mainImg": "../../public/project images/img1.jpg",
-  "desc":"This Project I used coding like Javascript, jQuery, CSS, HTML."
+  "title": "My Old Resume Website",
+  "testLink": "https://khemrin8820.github.io/My-Old-Resume/",
+  "codeProject": "https://github.com/Khemrin8820/My-Old-Resume",
+  "mainImg": "../../public/project images/My Old Resume Website Images/old resume image.jpg",
+  "desc":"This Project I used coding like Javascript, jQuery, CSS, HTML. It's Responsive for Mobile Phone & Laptop only."
 }];
 
 //Overflow-y Scroll when project greater 4 for mobile
