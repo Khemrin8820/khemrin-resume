@@ -1,102 +1,23 @@
+$(".less-icon").hide();
 //Frontend Project
 var frontendProjectImages = [{
   "title": "Portfolio",
   "testLink": "https://www.google.com",
   "codeProject": "https://www.github.com",
-  "mainImg": "../../public/khemrin-images.jpg",
-  "img1": "../../public/khemrin-images.jpg",
-  "img2":"../../public/khemrin-images.jpg",
+  "mainImg": "../../public/project images/img1.jpg",
   "desc":"This Project I used coding like Javascript, jQuery, CSS, HTML."
-}, {
-  "title": "Portfolio",
-  "testLink": "https://www.google.com",
-  "codeProject": "https://www.github.com",
-  "mainImg": "../../public/khemrin-images.jpg",
-  "img1": "../../public/khemrin-images.jpg",
-  "img2":"../../public/khemrin-images.jpg",
-  "desc":"This Project I used coding like Javascript, jQuery, CSS, HTML."
-}, {
-  "title": "Portfolio",
-  "testLink": "https://www.google.com",
-  "codeProject": "https://www.github.com",
-  "mainImg": "../../public/khemrin-images.jpg",
-  "img1": "../../public/khemrin-images.jpg",
-  "img2":"../../public/khemrin-images.jpg",
-  "desc":"This Project I used coding like Javascript, jQuery, CSS, HTML."
-}, {
-  "title": "Portfolio",
-  "testLink": "https://www.google.com",
-  "codeProject": "https://www.github.com",
-  "mainImg": "../../public/khemrin-images.jpg",
-  "img1": "../../public/khemrin-images.jpg",
-  "img2":"../../public/khemrin-images.jpg",
-  "desc":"This Project I used coding like Javascript, jQuery, CSS, HTML."
-  }, {
-  "title": "Portfolio",
-  "testLink": "https://www.google.com",
-  "codeProject": "https://www.github.com",
-  "mainImg": "../../public/khemrin-images.jpg",
-  "img1": "../../public/khemrin-images.jpg",
-  "img2":"../../public/khemrin-images.jpg",
-  "desc":"This Project I used coding like Javascript, jQuery, CSS, HTML."
-  }, {
-  "title": "Portfolio",
-  "testLink": "https://www.google.com",
-  "codeProject": "https://www.github.com",
-  "mainImg": "../../public/khemrin-images.jpg",
-  "img1": "../../public/khemrin-images.jpg",
-  "img2":"../../public/khemrin-images.jpg",
-  "desc":"This Project I used coding like Javascript, jQuery, CSS, HTML."
-  }, {
-  "title": "Portfolio",
-  "testLink": "https://www.google.com",
-  "codeProject": "https://www.github.com",
-  "mainImg": "../../public/khemrin-images.jpg",
-  "img1": "../../public/khemrin-images.jpg",
-  "img2":"../../public/khemrin-images.jpg",
-  "desc":"This Project I used coding like Javascript, jQuery, CSS, HTML."
-  }, {
-  "title": "Portfolio",
-  "testLink": "https://www.google.com",
-  "codeProject": "https://www.github.com",
-  "mainImg": "../../public/khemrin-images.jpg",
-  "img1": "../../public/khemrin-images.jpg",
-  "img2":"../../public/khemrin-images.jpg",
-  "desc":"This Project I used coding like Javascript, jQuery, CSS, HTML."
-  }, {
-  "title": "Portfolio",
-  "testLink": "https://www.google.com",
-  "codeProject": "https://www.github.com",
-  "mainImg": "../../public/khemrin-images.jpg",
-  "img1": "../../public/khemrin-images.jpg",
-  "img2":"../../public/khemrin-images.jpg",
-  "desc":"This Project I used coding like Javascript, jQuery, CSS, HTML."
-  }, {
-  "title": "Portfolio",
-  "testLink": "https://www.google.com",
-  "codeProject": "https://www.github.com",
-  "mainImg": "../../public/khemrin-images.jpg",
-  "img1": "../../public/khemrin-images.jpg",
-  "img2":"../../public/khemrin-images.jpg",
-  "desc":"This Project I used coding like Javascript, jQuery, CSS, HTML."
-  }, {
-  "title": "Portfolio",
-  "testLink": "https://www.google.com",
-  "codeProject": "https://www.github.com",
-  "mainImg": "../../public/khemrin-images.jpg",
-  "img1": "../../public/khemrin-images.jpg",
-  "img2":"../../public/khemrin-images.jpg",
-  "desc":"This Project I used coding like Javascript, jQuery, CSS, HTML."
-  }, {
-  "title": "Portfolio",
-  "testLink": "https://www.google.com",
-  "codeProject": "https://www.github.com",
-  "mainImg": "../../public/khemrin-images.jpg",
-  "img1": "../../public/khemrin-images.jpg",
-  "img2":"../../public/khemrin-images.jpg",
-  "desc":"This Project I used coding like Javascript, jQuery, CSS, HTML."
-  }];
+}];
 
+//Overflow-y Scroll when project greater 4 for mobile
+  let projectLength = frontendProjectImages.length;
+  console.log(projectLength);
+  if (projectLength > 4) {
+    $("#mobile-respond").css({ "overflow-y":"scroll"});
+  }
+  if (projectLength > 8) {
+    $("#laptop-respond").css({ "overflow-y": "scroll" });
+  }
+//Function Show Projects
 showProjectImages();
 function showProjectImages() {
   let txt = "";
