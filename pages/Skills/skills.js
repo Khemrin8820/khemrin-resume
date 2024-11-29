@@ -5,10 +5,10 @@ var percentSkills = [{
   "img":"../../public/percentage skill/60.png"
 }, {
   "title": "Figma",
-  "img":"../../public/percentage skill/70.png"
+  "img":"../../public/percentage skill/60.png"
 }, {
   "title": "C++",
-  "img":"../../public/percentage skill/70.png"
+  "img":"../../public/percentage skill/60.png"
 }, {
   "title": "HTML",
   "img":"../../public/percentage skill/80.png"
@@ -23,7 +23,7 @@ var percentSkills = [{
   "img":"../../public/percentage skill/60.png"
 }, {
   "title": "jQuery",
-  "img":"../../public/percentage skill/70.png"
+  "img":"../../public/percentage skill/80.png"
   }];
 
 //function Show all images of Skill
