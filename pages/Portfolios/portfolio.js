@@ -4,8 +4,14 @@ var frontendProjectImages = [{
   "title": "My Old Resume Website",
   "testLink": "https://khemrin8820.github.io/My-Old-Resume/",
   "codeProject": "https://github.com/Khemrin8820/My-Old-Resume",
-  "mainImg": "../../public/project images/My Old Resume Website Images/old resume image.jpg",
-  "desc":"This Project I used coding like Javascript, jQuery, CSS, HTML. It's Responsive for Mobile Phone & Laptop only."
+  "mainImg": "../../public/project images/My Old Resume Website/old resume image.jpg",
+  "desc":"This Project I used coding like JS, jQuery, CSS, HTML. Ux is my mine creation Idea. It's Responsive for Mobile & Laptop."
+},{
+  "title": "My Current Website",
+  "testLink": "https://khemrin8820.github.io/khemrin-resume/",
+  "codeProject": "https://github.com/Khemrin8820/khemrin-resume",
+  "mainImg": "../../public/project images/My Current Website/My Currrent Website.jpg",
+  "desc":"This Project I used coding like JS, jQuery, CSS, HTML. Ux is my mine creation idea. It's Responsive for Mobile & Laptop."
 }];
 
 //Overflow-y Scroll when project greater 4 for mobile

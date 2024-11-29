@@ -53,9 +53,12 @@
   overflow: hidden;
   cursor: pointer;
   transition: 200ms ease-in;
+  outline-style: solid;
+  outline-width: 1px;
 }
 .projects-images ul li:hover {
   transform: scale(1.1);
+  outline-color: var(--main-color);
 }
 .projects-images ul li img {
   width: 100%;
